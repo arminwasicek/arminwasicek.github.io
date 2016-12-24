@@ -32,7 +32,7 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 	<div class="container">
 		<p><center><h1>Publications</h1></center></p>
 		<ul class="staff">
-			{% for pub in site.publications %}
+			{% for pub in site.publications reversed limit:18 %}
 				<li>
 					<div class="name"><a target="_blank" href="{{ pub.doi }}"><b>{{ pub.title }}</b></a></div>
 					<div class="position">{{ pub.authors }}</div>
