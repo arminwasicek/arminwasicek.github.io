@@ -7,20 +7,12 @@ left_links:
     link: /contact/
 right_links:
   - name:
-    link: https://facebook.com/
+    link: https://linkedin.com/in/arminwasicek
     new_window: true
-    social_icon: Facebook
+    social_icon: LinkedIn
   - name:
-    link: https://twitter.com/
+    link: https://twitter.com/arminwasicek
     social_icon: Twitter
-    new_window: true
-  - name:
-    link: https://youtube.com/
-    social_icon: YouTube
-    new_window: true
-  - name:
-    link: https://plus.google.com/
-    social_icon: Google Plus
     new_window: true
   - name:
     link: /feed.xml

@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Frisco Template
+title: A
 url: "https://brave-submarine.cloudvent.net"
 baseurl:
 google_analytics_key:
@@ -9,11 +9,11 @@ google_maps_javascript_api_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: App marketing template for Jekyll.
-author:
-  name:
-  email:
-  twitter: # twitter username without the @ symbol
+description: A blog on innovation in information technology  with a special emphasis on machine learning, security, automotive and          other stuff from my professional life.
+author: 
+  name: Armin Wasicek
+  email: hellospencer@gmail.com
+  twitter: arminwasicek
 social:
   name: Frisco Template
   links:
@@ -37,9 +37,9 @@ exclude:
   - README.md
   - LICENCE
 
-collections:
-  staff_members:
-    _hide_content: true
+#collections:
+#  staff_members:
+#    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
