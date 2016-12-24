@@ -20,7 +20,8 @@ image: https://source.unsplash.com/BcoGknSqlDc/2000x1322?a=.png
 				<li>
 					<div class="square-image" style="background-image: url({% include relative-src.html src=person.image_path %})"></div>
 					<div class="name"><a target="_blank" href="https://twitter.com/{{ person.twitter_username }}">{{ person.name }}</a></div>
-					<div class="position">{{ person.position }}</div>
+					<div class="position"><h3>{{ person.position }}</h3></div>
+					<div class="position">{{ person.bio }}</div>
 				</li>
 			{% endfor %}
 		</ul>
