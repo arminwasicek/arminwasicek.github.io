@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /siteicon.png
-description: A blog on innovation in information technology  with a special emphasis on machine learning, security, automotive and          other stuff from my professional life.
+description: A blog on innovation in information technology  with a special emphasis on machine learning, security, automotive and other stuff from my professional life.
 author: 
   name: Armin Wasicek
   email: hellospencer@gmail.com
@@ -37,9 +37,11 @@ exclude:
   - README.md
   - LICENCE
 
-#collections:
-#  staff_members:
-#    _hide_content: true
+collections:
+  staff_members:
+    _hide_content: true
+  publications:
+    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/"
