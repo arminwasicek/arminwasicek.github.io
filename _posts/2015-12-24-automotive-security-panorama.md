@@ -1,7 +1,7 @@
 ---
 title: 2015 Automotive Security Panorama
 date: 2015-12-24
-description:
+description: The major automotive security incidents from 2015
 categories: 
   - automotive 
   - security
